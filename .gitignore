@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .rake_test_cache
 
 ###
@@ -5,3 +6,15 @@
 ###
 .chef/*.pem
 .chef/encrypted_data_bag_secret
+=======
+*.dcu
+*.~*~
+*.local
+*.identcache
+__history
+*.drc
+*.map
+*.exe
+*.dll
+bin/*
+>>>>>>> 06e75abe5adc7cb56648d1815c2359c56b545420
