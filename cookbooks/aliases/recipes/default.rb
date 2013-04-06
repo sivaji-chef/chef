@@ -11,11 +11,6 @@ magic_shell_alias 'h' do
   command 'cd ~'
 end
 
-# Alias `sites` to cd into apache
-magic_shell_alias 'sites' do
-  command "cd #{node['apache']['dir']}/sites-enabled"
-end
-
 # Set Vim as the default editor
 magic_shell_environment 'EDITOR' do
   value 'vi'
@@ -28,4 +23,17 @@ end
 
 magic_shell_alias 'sd' do
   command 'shutdown -P now'
+end
+
+magic_shell_alias 'rb' do
+  command 'reboot'
+end
+
+
+magic_shell_alias 'hima' do
+ command 'hostname'
+end
+
+magic_shell_alias 'hasini' do
+ command 'date'
 end
